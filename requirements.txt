@@ -1,0 +1,7 @@
+#Django>=4.0.3,<4.1
+Django
+djangorestframework
+django_cors_headers
+django-filter
+requests==2.27.1
+uWSGI>=2.0.18,<2.1
