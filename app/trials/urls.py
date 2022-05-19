@@ -10,5 +10,6 @@ router.register(r'trials', views.Studies, 'trial')
 urlpatterns = [
     #path('', views.Studies.as_view(), name = 'studies'),
     path('', include(router.urls)),
-    path('fullstudy/', views.CTAPI_FullStudy, name = 'fullstudy'),
+    path('addstudy/', views.addStudy, name = 'addstudy'),
+    path('preview/<expr>', views.preview, name = 'preview'),
 ]

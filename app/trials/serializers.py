@@ -12,3 +12,7 @@ class StatusModuleSerializer(serializers.ModelSerializer):
         model = IdentificationModule
         fields = ['StatusVerifiedDate']
 
+
+class Myserializer(serializers.Serializer):
+    APIVrs = serializers.CharField()
+
