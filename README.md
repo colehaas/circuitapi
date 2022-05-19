@@ -1,8 +1,8 @@
 # circuitapi
 
-### Run Development Server
+## Run Development Server
 
-## Run Backend
+### Run Backend
 Navigate to the circuitapi directory
 
 - python3 -m venv env
@@ -11,7 +11,7 @@ Navigate to the circuitapi directory
 - cd app
 - python3 manage.py runserver
 
-## Run Frontend
+### Run Frontend
 In seperate window navigate to circuitapi directory
 
 - cd frontend
